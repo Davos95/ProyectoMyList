@@ -11846,11 +11846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlumnoMCSD\\source\\repos\\ApiMyList\\ApiMyList\\ApiMyList.csproj",
+      "projectUniqueName": "C:\\Users\\AlumnoMCSD\\source\\Github\\ProyectoMyList\\ApiMyList\\ApiMyList\\ApiMyList.csproj",
       "projectName": "ApiMyList",
-      "projectPath": "C:\\Users\\AlumnoMCSD\\source\\repos\\ApiMyList\\ApiMyList\\ApiMyList.csproj",
+      "projectPath": "C:\\Users\\AlumnoMCSD\\source\\Github\\ProyectoMyList\\ApiMyList\\ApiMyList\\ApiMyList.csproj",
       "packagesPath": "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlumnoMCSD\\source\\repos\\ApiMyList\\ApiMyList\\obj\\",
+      "outputPath": "C:\\Users\\AlumnoMCSD\\source\\Github\\ProyectoMyList\\ApiMyList\\ApiMyList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

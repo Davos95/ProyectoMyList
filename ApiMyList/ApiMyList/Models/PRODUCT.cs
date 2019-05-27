@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ApiMyList.Models
 {
     [Table("PRODUCT")]
-    public class PRODUCT
+    public class Product
     {
         [Key]
         [Column("ID")]

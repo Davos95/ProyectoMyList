@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ApiMyList.Models
 {
     [Table("PRODUCTLIST")]
-    public class LIST
+    public class ProductList
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
