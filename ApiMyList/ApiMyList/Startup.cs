@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ApiMyList.Data;
+using ApiMyList.Repository;
+using ApiMyList.Token;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -25,6 +29,18 @@ namespace ApiMyList
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            HelperToken helpertoken = new HelperToken(this.Configuration);
+
+            String cadenaConexionAzure = this.Configuration.GetConnectionString("conexionAzure");
+
+            services.AddDbContext<IMyListContext, MyListContext>(options => options.UseSqlServer(cadenaConexionAzure));
+
+            services.AddTransient<IRepositoryLists, RepositoryLists>();
+            services.AddTransient<IRepositoryProducts, RepositoryProducts>();
+            services.AddTransient<IRepositoryUser, RepositoryUser>();
+
+            services.AddAuthentication(helpertoken.GetAuthOptions()).AddJwtBearer(helpertoken.GetJwtOptions());
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -39,6 +55,8 @@ namespace ApiMyList
             {
                 app.UseHsts();
             }
+
+            app.UseAuthentication();
 
             app.UseHttpsRedirection();
             app.UseMvc();

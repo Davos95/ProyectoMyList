@@ -13,5 +13,6 @@ namespace ApiMyList.Repository
         USER getUsuario(int id);
         void AgregarUsuario(int idUsuario, int idContacto);
         List<USER> GetContactos(int idUsuario);
+        USER ExisteUsuario(String Nick, String Password);
     }
 }

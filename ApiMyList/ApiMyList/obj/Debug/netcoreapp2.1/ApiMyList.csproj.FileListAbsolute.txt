@@ -9,3 +9,17 @@ C:\Users\AlumnoMCSD\source\repos\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\Api
 C:\Users\AlumnoMCSD\source\repos\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.AssemblyInfoInputs.cache
 C:\Users\AlumnoMCSD\source\repos\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.AssemblyInfo.cs
 C:\Users\AlumnoMCSD\source\repos\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.RazorTargetAssemblyInfo.cache
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\bin\Debug\netcoreapp2.1\ApiMyList.deps.json
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\bin\Debug\netcoreapp2.1\ApiMyList.runtimeconfig.json
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\bin\Debug\netcoreapp2.1\ApiMyList.runtimeconfig.dev.json
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\bin\Debug\netcoreapp2.1\ApiMyList.dll
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.RazorAssemblyInfo.cache
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.RazorAssemblyInfo.cs
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.AssemblyInfoInputs.cache
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.AssemblyInfo.cs
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.RazorTargetAssemblyInfo.cache
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\bin\Debug\netcoreapp2.1\ApiMyList.pdb
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.dll
+C:\Users\AlumnoMCSD\source\Github\ProyectoMyList\ApiMyList\ApiMyList\obj\Debug\netcoreapp2.1\ApiMyList.pdb

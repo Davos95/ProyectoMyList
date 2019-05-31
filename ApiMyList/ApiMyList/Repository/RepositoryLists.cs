@@ -77,6 +77,15 @@ namespace ApiMyList.Repository
         {
             ProductList lista = this.GetLista(id);
             this.context.Lists.Remove(lista);
+
+            var listas = from datos in context.UsuarioLista
+                               where datos.IdLista == id
+                               select datos;
+            foreach (Usuario_Lista ul in listas)
+            {
+                this.context.UsuarioLista.Remove(ul);
+            }
+
             this.context.SaveChanges();
         }
 

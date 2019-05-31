@@ -62,5 +62,13 @@ namespace ApiMyList.Repository
                            select datos;
             return consulta.FirstOrDefault();
         }
+
+        public USER ExisteUsuario(String Nick, String Password)
+        {
+            var consulta = from datos in context.Users
+                           where datos.Nick == Nick && datos.Password == Password
+                           select datos;
+            return consulta.FirstOrDefault();
+        }
     }
 }
