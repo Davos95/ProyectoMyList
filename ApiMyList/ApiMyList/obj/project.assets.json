@@ -12580,23 +12580,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\": {},
+    "C:\\Users\\david\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlumnoMCSD\\source\\Github\\ProyectoMyList\\ApiMyList\\ApiMyList\\ApiMyList.csproj",
+      "projectUniqueName": "C:\\XAMARIN\\ProyectoMyList\\ApiMyList\\ApiMyList\\ApiMyList.csproj",
       "projectName": "ApiMyList",
-      "projectPath": "C:\\Users\\AlumnoMCSD\\source\\Github\\ProyectoMyList\\ApiMyList\\ApiMyList\\ApiMyList.csproj",
-      "packagesPath": "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlumnoMCSD\\source\\Github\\ProyectoMyList\\ApiMyList\\ApiMyList\\obj\\",
+      "projectPath": "C:\\XAMARIN\\ProyectoMyList\\ApiMyList\\ApiMyList\\ApiMyList.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "C:\\XAMARIN\\ProyectoMyList\\ApiMyList\\ApiMyList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\AlumnoMCSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
