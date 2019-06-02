@@ -17,7 +17,11 @@ namespace ApiMyList.Data
         public DbSet<Usuario_Lista> UsuarioLista { get; set; }
         public DbSet<Contactos> Contactos { get; set; }
 
-
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Contactos>().HasKey(c => new { c.IdUsuario, c.IdContacto });
+            modelBuilder.Entity<Usuario_Lista>().HasKey(c => new { c.IdUsuario, c.IdLista });
+        }
         #region User
         public USER GetUser(string nick, string password)
         {

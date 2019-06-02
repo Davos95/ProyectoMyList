@@ -25,7 +25,7 @@ namespace ApiMyList.Controllers
         [Route("[action]")]
         public void CrearUsuario(USER usuario)
         {
-            this.repo.CrearUsuario(usuario.Nick, usuario.Password, usuario.Nombre, usuario.Apellido1, usuario.Apellido2, usuario.Email);
+            this.repo.CrearUsuario(usuario.Nick,usuario.Password,usuario.Nombre,usuario.Apellido1,usuario.Apellido2,usuario.Email);
         }
 
         [HttpPost]
@@ -44,6 +44,13 @@ namespace ApiMyList.Controllers
             return this.repo.getUsuario(idUsuario);
             
         }
+        [HttpGet]
+        [Route("[action]/{Nick}/{Password}")]
+        public USER GetUsuarioCredenciales(String Nick, String Password)
+        {
+            return this.repo.ExisteUsuario(Nick, Password);
+        }
+
 
         [HttpGet]
         [Route("[action]/{nick}")]

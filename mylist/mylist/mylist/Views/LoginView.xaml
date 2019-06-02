@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:mylist"
+             BindingContext="{Binding Source={x:Static local:App.Locator}, Path=LoginViewModel}"
+             x:Class="mylist.Views.LoginView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Inicio de sesión" HorizontalOptions="CenterAndExpand" FontSize="25" Margin="0,30,0,0"  />
+            <Label Text="Nickname" Margin="20,40,20,0"/>
+            <Entry Text="{Binding usuario.Nick}" Margin="20,0,20,0"/>
+            <Label Text="Password" Margin="20,40,20,0"/>
+            <Entry Text="{Binding usuario.Password}" IsPassword="True" Margin="20,0,20,0" />
+            <Button Text="Iniciar sesión" Command="{Binding LoginAction}" BackgroundColor="Green" TextColor="White"  Margin="20,0,20,0"/>
+            <Button Text="Registrarse" Command="{Binding GoRegistrar}" BackgroundColor="Red" TextColor="White" Margin="40,40,40,0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

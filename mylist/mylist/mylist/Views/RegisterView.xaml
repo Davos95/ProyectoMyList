@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:mylist"
+             BindingContext="{Binding Source={x:Static local:App.Locator}, Path=LoginViewModel}"
+             x:Class="mylist.Views.RegisterView">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Registro" FontSize="25" HorizontalOptions="CenterAndExpand" Margin="0,30,0,0"/>
+                
+                <Label Text="Nombre" Margin="20,40,0,0" />
+                <Entry Text="{Binding usuario.Nombre}" Margin="20,0,20,0" />
+                <Label Text="Nick" Margin="20,20,0,0" />
+                <Entry Text="{Binding usuario.Nick}" Margin="20,0,20,0" />
+                <Label Text="Password" Margin="20,20,0,0"/>
+                <Entry Text="{Binding usuario.Password}" IsPassword="True" />
+                <Label Text="Repite Password" Margin="20,20,0,0"/>
+                <Entry Text="{Binding repitePassword}" IsPassword="True" />
+                <Button Text="Registrarse" BackgroundColor="Green" TextColor="White" Command="{Binding Registrar}" Margin="20,40,20,0"/>
+            </StackLayout>
+            
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

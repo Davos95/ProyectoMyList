@@ -29,9 +29,9 @@ namespace ApiMyList.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public IActionResult Login(USER user)
+        public IActionResult Login(USER usuario)
         {
-            USER userLogin = this.repo.ExisteUsuario(user.Nick, user.Password);
+            USER userLogin = this.repo.ExisteUsuario(usuario.Nick, usuario.Password);
             if (userLogin != null)
             {
                 Claim[] claims = new[]

@@ -34,6 +34,7 @@ namespace ApiMyList.Repository
         public void CrearUsuario(string Nick, string Password, string Nombre, string Apellido1, string Apellido2, string Email)
         {
             USER user = new USER();
+            user.Id = 0;
             user.Nick = Nick;
             user.Password = Password;
             user.Nombre = Nombre;
@@ -66,7 +67,7 @@ namespace ApiMyList.Repository
         public USER ExisteUsuario(String Nick, String Password)
         {
             var consulta = from datos in context.Users
-                           where datos.Nick == Nick && datos.Password == Password
+                           where datos.Nick.Equals(Nick) && datos.Password.Equals(Password)
                            select datos;
             return consulta.FirstOrDefault();
         }

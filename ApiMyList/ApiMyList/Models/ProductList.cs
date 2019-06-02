@@ -11,7 +11,7 @@ namespace ApiMyList.Models
     public class ProductList
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("ID")]
         public int Id { get; set; }
         [Column("NOMBRE")]

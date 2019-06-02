@@ -10,8 +10,10 @@ namespace ApiMyList.Models
     public class Usuario_Lista
     {
         [Column("IDLISTA")]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IdLista { get; set; }
         [Column("IDUSER")]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IdUsuario { get; set; }
         [Column("ADMINISTRATOR")]
         public bool Administrador { get; set; }

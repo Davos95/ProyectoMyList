@@ -10,8 +10,10 @@ namespace ApiMyList.Models
     public class Contactos
     {
         [Column("IDUSUARIO")]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IdUsuario { get; set; }
         [Column("IDCONTACTO")]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IdContacto { get; set; }
     }
 }

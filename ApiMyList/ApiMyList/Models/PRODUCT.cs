@@ -12,7 +12,7 @@ namespace ApiMyList.Models
     {
         [Key]
         [Column("ID")]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Column("IDLISTA")]
         public int IdLista { get; set; }

@@ -36,7 +36,7 @@ namespace ApiMyList.Controllers
         }
 
         [HttpPost]
-        [Route("[action]")]
+        [Route("[action]/{idUsuario}")]
         public void CrearLista(ProductList list, int idUsuario)
         {
             this.repo.CrearLista(list.Id, list.Nombre, list.Descripcion, list.Fecha, list.Presupuesto, list.ActivarLimite, list.PresupuestoLimite, idUsuario);
