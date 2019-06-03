@@ -2,6 +2,7 @@
 using mylist.Models;
 using mylist.Repositories;
 using mylist.Tools;
+using mylist.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -41,13 +42,27 @@ namespace mylist.Viewmodels
             this.productList = new ObservableCollection<ProductList>(lista);
         }
 
-        public Command GoCesta
+        public Command GoCrear
         {
             get
             {
                 return new Command(async() =>
                 {
-                    
+                    await App.Current.MainPage.Navigation.PushModalAsync(new ProductListView());
+                    MessagingCenter.Subscribe<ProductListsViewModel>(this, "UPDATE", async(sender)=> {
+                        await this.CargarLista();
+                    });
+                });
+            }
+        }
+
+        public Command GetListas
+        {
+            get
+            {
+                return new Command(async () =>
+                {
+                    await this.CargarLista();
                 });
             }
         }

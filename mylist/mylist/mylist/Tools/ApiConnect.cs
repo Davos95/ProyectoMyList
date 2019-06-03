@@ -57,7 +57,11 @@ namespace mylist.Tools
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            client.DefaultRequestHeaders.Add("Authorization", "bearer " + token);
+            if(token != null)
+            {
+                client.DefaultRequestHeaders.Add("Authorization", "bearer " + token);
+            }
+            
 
             String jsondoctor = JsonConvert.SerializeObject(obj, Formatting.Indented);
             //DEBEMOS CONVERTIR EL STRING A BYTE[]

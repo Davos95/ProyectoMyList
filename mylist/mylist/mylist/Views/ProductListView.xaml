@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:mylist"
+             BindingContext="{Binding Source={x:Static local:App.Locator}, Path=ProductListView}"
+             x:Class="mylist.Views.ProductListView">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout>
+                <Label Text="Nombre" Margin="20,30,0,0"/>
+                <Entry Text="{Binding productList.Nombre}" Margin="20,0,20,0"/>
+                <Label Text="Descripcion" Margin="20,30,0,0"/>
+                <Entry Text="{Binding productList.Descripcion}" Margin="20,0,20,0"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="170"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Activar limite" Grid.Column="0" Grid.Row="0" Margin="20,0,0,0"/>
+                    <Switch IsToggled="{Binding flag}" Grid.Column="0" Grid.Row="0" HeightRequest="30" WidthRequest="50"  HorizontalOptions="EndAndExpand"  />
+                </Grid>
+                <Label Text="Presupuesto limite" Margin="20,20,0,0" />
+                <Entry Text="{Binding productList.PresupuestoLimite}" Keyboard="Numeric" IsEnabled="{Binding flag}" Margin="20,0,20,0"/>
+
+                <Button Text="Crear lista!" BackgroundColor="Green" TextColor="White" Margin="20,0,20,0" Command="{Binding CrearLista}" />
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

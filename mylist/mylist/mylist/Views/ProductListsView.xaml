@@ -5,16 +5,19 @@
              xmlns:local="clr-namespace:mylist"
              BindingContext="{Binding Source={x:Static local:App.Locator}, Path=ProductListViewModel}"
              x:Class="mylist.Views.ProductListsView">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="recargar" Command="{Binding GetListas}" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <RelativeLayout>
             <ContentView RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width, Factor=1}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}">
-                <ListView ItemsSource="{Binding productList}">
+                <ListView ItemsSource="{Binding productList}" HasUnevenRows="True">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <ViewCell>
-                                <StackLayout Orientation="Horizontal">
-                                    <Label Text="{Binding ProductList.Nombre}"/>
-                                    <Label Text="{Binding ProductList.Descripcion}"/>
+                            <ViewCell Height="100">
+                                <StackLayout>
+                                    <Label Text="{Binding Nombre}"  FontSize="20" TextColor="Black" Margin="20,10,20,0" />
+                                    <Label Text="{Binding Descripcion}" FontSize="15" TextColor="DarkGray" Margin="20,10,20,0" />
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>

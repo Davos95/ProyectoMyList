@@ -44,7 +44,7 @@ namespace ApiMyList.Repository
             return consulta.FirstOrDefault();
         }
 
-        public void CrearLista(int id, string Nombre, string Descripcion, DateTime Fecha, float Presupuesto, bool ActivarLimite, float PresupuestoLimite, int idUsuario)
+        public void CrearLista(int id, string Nombre, string Descripcion, DateTime Fecha, double Presupuesto, bool ActivarLimite, double PresupuestoLimite, int idUsuario)
         {
             ProductList list = new ProductList();
             list.Id = this.GetNumListas();
@@ -60,7 +60,7 @@ namespace ApiMyList.Repository
             this.AddUsuarioLista(list.Id, idUsuario, true);
         }
 
-        public void ModificarLista(int id, string Nombre, string Descripcion, DateTime Fecha, float Presupuesto, bool ActivarLimite, float PresupuestoLimite)
+        public void ModificarLista(int id, string Nombre, string Descripcion, DateTime Fecha, double Presupuesto, bool ActivarLimite, double PresupuestoLimite)
         {
             ProductList list = this.GetLista(id);
             list.Nombre = Nombre;

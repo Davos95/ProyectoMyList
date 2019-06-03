@@ -1,6 +1,7 @@
 ﻿using mylist.Base;
 using mylist.Models;
 using mylist.Repositories;
+using mylist.Services;
 using mylist.Views;
 using System;
 using System.Collections.Generic;
@@ -33,14 +34,23 @@ namespace mylist.Viewmodels
             set { this._repitePassword = value; OnPropertyChanged("repitePassword"); }
         }
 
+        private bool _IsLoading;
+        public bool IsLoading
+        {
+            get { return this._IsLoading; }
+            set { this._IsLoading = value; OnPropertyChanged("IsLoading"); }
+        }
+
         public Command LoginAction
         {
             get {
                 return new Command( async()=> {
+                    this.IsLoading = true;
                     if (await this.repo.Login(this.usuario)) {
-                        await App.Current.MainPage.Navigation.PopAsync();
-                        await App.Current.MainPage.Navigation.PushAsync(new MasterPage());
+                        DependencyService.Get<Toast>().Show("Se ha iniciado sesión!");
+                        App.Current.MainPage = new NavigationPage(new MasterPage());
                     }
+                    this.IsLoading = false;
                 });
             }
         }
@@ -68,6 +78,8 @@ namespace mylist.Viewmodels
                         this.usuario.Apellido2 = "prueba";
                         this.usuario.Email = "prueba";
                         await this.repo.RegistrarUsuario(this.usuario);
+                        DependencyService.Get<Toast>().Show("Usuario creado!");
+                        await App.Current.MainPage.Navigation.PopModalAsync();
                     }
                     
                 });

@@ -4,7 +4,8 @@
              NavigationPage.HasNavigationBar="False"
                   xmlns:local="clr-namespace:mylist"
              BindingContext="{Binding Source={x:Static local:App.Locator}, Path=MasterPageItemViewModel}"
-             x:Class="mylist.Views.MasterPage">
+                  Title="MyList"
+                  x:Class="mylist.Views.MasterPage">
     <MasterDetailPage.Master >
         <ContentPage Title="MyList">
             <ContentPage.Content>

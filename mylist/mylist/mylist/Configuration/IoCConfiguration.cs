@@ -16,6 +16,7 @@ namespace mylist.Configuration
             builder.RegisterType<LoginViewModel>();
             builder.RegisterType<MasterPageItemViewModel>();
             builder.RegisterType<ProductListsViewModel>();
+            builder.RegisterType<ProductListViewModel>();
 
             this.Container = builder.Build();
         }
@@ -34,6 +35,13 @@ namespace mylist.Configuration
             get
             {
                 return this.Container.Resolve<ProductListsViewModel>();
+            }
+        }
+        public ProductListViewModel ProductListView
+        {
+            get
+            {
+                return this.Container.Resolve<ProductListViewModel>();
             }
         }
 

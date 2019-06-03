@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace ApiMyList.Models
 {
-    [Table("PRODUCTLIST")]
+    [Table("ML_PRODUCTLIST")]
     public class ProductList
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("ID")]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Column("NOMBRE")]
         public String Nombre { get; set; }
@@ -21,12 +21,13 @@ namespace ApiMyList.Models
         [Column("FECHA")]
         public DateTime Fecha { get; set; }
         [Column("PRESUPUESTO")]
-        public float Presupuesto { get; set; }
+        public double Presupuesto { get; set; }
         [Column("ACTIVARLIMITE")]
         public bool ActivarLimite { get; set; }
         [Column("PRESUPUESTOLIMITE")]
-        public float PresupuestoLimite { get; set; }
-        [Column("MEDIAPERSONA")]
-        public float MediaPersona { get; set; }
+        public double PresupuestoLimite { get; set; }
+
+        [NotMapped]
+        public int idUsuario { get; set; }
     }
 }

@@ -18,7 +18,10 @@ namespace mylist.Views
 		public MasterPage ()
 		{
 			InitializeComponent ();
-            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ProductListsView)));
+            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ProductListsView))) {
+                Title = "MyList",
+                BarBackgroundColor = Color.ForestGreen
+            };
 
             IsPresented = false;
             this.lsvmenu.ItemSelected += ListView_ItemSelected;
@@ -32,13 +35,14 @@ namespace mylist.Views
             {
                 StorageSession session = new StorageSession();
                 session.RemoveAllStorage();
-                await App.Current.MainPage.Navigation.PopAsync();
-                await Application.Current.MainPage.Navigation.PushAsync(new LoginView());
+                Application.Current.MainPage = new LoginView();
                 IsPresented = false;
             }
             else
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(page));
+                Detail = new NavigationPage((Page)Activator.CreateInstance(page)) {
+                    BarBackgroundColor = Color.ForestGreen
+                };
                 IsPresented = false;
             }
         }

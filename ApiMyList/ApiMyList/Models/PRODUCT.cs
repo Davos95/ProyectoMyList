@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace ApiMyList.Models
 {
-    [Table("PRODUCT")]
+    [Table("ML_PRODUCT")]
     public class Product
     {
         [Key]
         [Column("ID")]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
         [Column("IDLISTA")]
         public int IdLista { get; set; }
@@ -21,7 +21,7 @@ namespace ApiMyList.Models
         [Column("CANTIDAD")]
         public int Cantidad { get; set; }
         [Column("PRECIO")]
-        public float Precio { get; set; }
+        public double Precio { get; set; }
         [Column("CHECKED")]
         public bool Checked { get; set; }
     }

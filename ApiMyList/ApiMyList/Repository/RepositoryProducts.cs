@@ -31,7 +31,7 @@ namespace ApiMyList.Repository
             return consulta.FirstOrDefault();
         }
 
-        public void InsertarProducto(int IdLista, string Nombre, int Cantidad, float Precio, bool chekced)
+        public void InsertarProducto(int IdLista, string Nombre, int Cantidad, double Precio, bool chekced)
         {
             Product product = new Product();
             product.IdLista = IdLista;
@@ -43,7 +43,7 @@ namespace ApiMyList.Repository
             this.context.SaveChanges();
         }
 
-        public void ModificarProducto(int id, int IdLista, string Nombre, int Cantidad, float Precio, bool chekced)
+        public void ModificarProducto(int id, int IdLista, string Nombre, int Cantidad, double Precio, bool chekced)
         {
             Product product = this.GetProducto(id);
             product.Nombre = Nombre;

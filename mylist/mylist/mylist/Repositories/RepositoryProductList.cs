@@ -26,9 +26,9 @@ namespace mylist.Repositories
             return productList;
         }
 
-        public async Task CrearLista(ProductList productList, int idUsuario)
+        public async Task CrearLista(ProductList productList)
         {
-            await this.connect.CallApiPost(productList, "api/ProductList/CrearLista/" + idUsuario, null);
+            await this.connect.CallApiPost(productList, "api/ProductList/CrearLista", null);
         }
 
         public async Task ModificarLista(ProductList productList)

@@ -24,6 +24,7 @@ namespace mylist.Models
 
         public String Email { get; set; }
 
+        
 
     }
 }

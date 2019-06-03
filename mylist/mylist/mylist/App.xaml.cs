@@ -33,14 +33,14 @@ namespace mylist
         protected async override void OnStart()
         {
             USER usuario = await this.session.GetStorageUser();
-
+            
             if (usuario != null)
             {
                 MainPage = new NavigationPage(new MasterPage());
             }
             else
             {
-                MainPage = new NavigationPage(new LoginView());
+                MainPage = new LoginView();
             }
 
         }

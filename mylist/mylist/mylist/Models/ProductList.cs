@@ -25,5 +25,7 @@ namespace mylist.Models
         public float PresupuestoLimite { get; set; }
 
         public float MediaPersona { get; set; }
+
+        public int idUsuario { get; set; }
     }
 }

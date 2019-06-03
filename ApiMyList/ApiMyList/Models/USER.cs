@@ -28,9 +28,6 @@ namespace ApiMyList.Models
         [Column("EMAIL")]
         public String Email { get; set; }
 
-
-        [NotMapped]
-        public List<ProductList> lists { get; set; }
     }
 }
 

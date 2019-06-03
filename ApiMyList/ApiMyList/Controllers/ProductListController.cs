@@ -35,11 +35,11 @@ namespace ApiMyList.Controllers
             return this.repo.GetLista(id);
         }
 
-        [HttpPost]
-        [Route("[action]/{idUsuario}")]
-        public void CrearLista(ProductList list, int idUsuario)
+        [Route("[action]")]
+        public void CrearLista(ProductList list)
         {
-            this.repo.CrearLista(list.Id, list.Nombre, list.Descripcion, list.Fecha, list.Presupuesto, list.ActivarLimite, list.PresupuestoLimite, idUsuario);
+            
+            this.repo.CrearLista(list.Id, list.Nombre, list.Descripcion, DateTime.Now, list.Presupuesto, list.ActivarLimite, list.PresupuestoLimite, list.idUsuario);
             
         }
 

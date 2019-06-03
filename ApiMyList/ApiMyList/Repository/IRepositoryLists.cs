@@ -14,8 +14,8 @@ namespace ApiMyList.Repository
         int GetNumListas();
         List<ProductList> GetListas(int idUsuario);
         ProductList GetLista(int id);
-        void CrearLista(int id, String Nombre, String Descripcion, DateTime Fecha, float Presupuesto, bool ActivarLimite, float PresupuestoLimite, int idUsuario);
-        void ModificarLista(int id, String Nombre, String Descripcion, DateTime Fecha, float Presupuesto, bool ActivarLimite, float PresupuestoLimite);
+        void CrearLista(int id, String Nombre, String Descripcion, DateTime Fecha, double Presupuesto, bool ActivarLimite, double PresupuestoLimite, int idUsuario);
+        void ModificarLista(int id, String Nombre, String Descripcion, DateTime Fecha, double Presupuesto, bool ActivarLimite, double PresupuestoLimite);
         void EliminarLista(int id);
         void AddUsuarioLista(int idLista, int idUsuario, bool Administrador);
         void DeleteUsuarioLista(int idLista, int idUsuario);
