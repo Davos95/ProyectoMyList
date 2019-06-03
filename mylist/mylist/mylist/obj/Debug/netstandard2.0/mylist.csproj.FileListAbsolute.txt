@@ -10,7 +10,8 @@ C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\obj\Debug\netstandard2.0\mylist.c
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\obj\Debug\netstandard2.0\mylist.AssemblyInfoInputs.cache
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\obj\Debug\netstandard2.0\mylist.AssemblyInfo.cs
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\bin\Debug\netstandard2.0\mylist.pdb
-C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\obj\Debug\netstandard2.0\XamlC.stamp
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\obj\Debug\netstandard2.0\mylist.dll
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\obj\Debug\netstandard2.0\mylist.pdb
-C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\obj\Debug\netstandard2.0\Views\ProductListView.xaml.g.cs
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\obj\Debug\netstandard2.0\XamlC.stamp
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\obj\Debug\netstandard2.0\Views\ProductList.xaml.g.cs
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\obj\Debug\netstandard2.0\Views\ProductListsView.xaml.g.cs

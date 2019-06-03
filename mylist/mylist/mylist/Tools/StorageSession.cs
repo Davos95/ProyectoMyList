@@ -14,8 +14,8 @@ namespace mylist.Tools
         public async Task StorageUser(USER usuario, String token)
         {
             String json = JsonConvert.SerializeObject(usuario, Formatting.Indented);
-            await SecureStorage.SetAsync("user", json);
-            await SecureStorage.SetAsync("token", token);
+            await SecureStorage.SetAsync("MyList_user_Storage", json);
+            await SecureStorage.SetAsync("MyList_token_Storage", token);
         }
 
         public async Task<USER> GetStorageUser()
@@ -23,7 +23,7 @@ namespace mylist.Tools
             USER usuario = null;
             try
             {
-                var authUser = await SecureStorage.GetAsync("user");
+                var authUser = await SecureStorage.GetAsync("MyList_user_Storage");
                 usuario = JsonConvert.DeserializeObject<USER>(authUser);
             }catch
             {
@@ -35,7 +35,7 @@ namespace mylist.Tools
 
         public async Task<String> GetStorageToken()
         {
-            String token = await SecureStorage.GetAsync("token");
+            String token = await SecureStorage.GetAsync("MyList_token_Storage");
             return token;
         }
 

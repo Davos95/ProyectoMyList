@@ -108,6 +108,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "mylist.Android.dll" comes first in this list. */
 		"mylist.Android.dll",
 		"Autofac.dll",
+		"FAB.Droid.dll",
+		"FAB.Forms.dll",
 		"FormsViewGroup.dll",
 		"mylist.dll",
 		"Newtonsoft.Json.dll",

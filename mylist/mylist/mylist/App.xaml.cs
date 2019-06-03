@@ -27,7 +27,7 @@ namespace mylist
             this.session = new StorageSession();
 
 
-            MainPage = new NavigationPage(new MasterPage());
+            OnStart();
         }
 
         protected async override void OnStart()

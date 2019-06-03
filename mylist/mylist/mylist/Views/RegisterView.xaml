@@ -14,9 +14,9 @@
                 <Label Text="Nick" Margin="20,20,0,0" />
                 <Entry Text="{Binding usuario.Nick}" Margin="20,0,20,0" />
                 <Label Text="Password" Margin="20,20,0,0"/>
-                <Entry Text="{Binding usuario.Password}" IsPassword="True" />
+                <Entry Text="{Binding usuario.Password}" IsPassword="True" Margin="20,0,20,0" />
                 <Label Text="Repite Password" Margin="20,20,0,0"/>
-                <Entry Text="{Binding repitePassword}" IsPassword="True" />
+                <Entry Text="{Binding repitePassword}" IsPassword="True" Margin="20,0,20,0" />
                 <Button Text="Registrarse" BackgroundColor="Green" TextColor="White" Command="{Binding Registrar}" Margin="20,40,20,0"/>
             </StackLayout>
             

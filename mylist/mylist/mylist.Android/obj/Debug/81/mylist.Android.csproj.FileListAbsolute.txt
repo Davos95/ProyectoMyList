@@ -57,6 +57,8 @@ C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\bin\Debug\System.Runtime.
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\bin\Debug\System.Web.Services.pdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\bin\Debug\Mono.Security.pdb
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\bin\Debug\mylist.dll.mdb
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\bin\Debug\Xamarin.Essentials.dll.mdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\mylist.Android.pdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Autofac.pdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
@@ -81,8 +83,6 @@ C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Syst
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\bin\Debug\mylist.dll.mdb
-C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\bin\Debug\Xamarin.Essentials.dll.mdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\mylist.dll.mdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Xamarin.Essentials.dll.mdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\mylist.dll.mdb
@@ -111,7 +111,6 @@ C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\asse
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist\bin\Debug\netstandard2.0\mylist.dll
-C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\bin\Debug\mylist.dll.mdb
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\res\drawable\addicon.png
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\mylist.dll.mdb
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Xamarin.Essentials.dll.mdb

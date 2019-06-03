@@ -1,5 +1,7 @@
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\mylist.Android.dll
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Autofac.dll
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\FAB.Droid.dll
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\FAB.Forms.dll
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Mono.Android.dll
@@ -47,4 +49,10 @@ C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\asse
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\System.Runtime.dll
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\System.ObjectModel.dll
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\System.Linq.Expressions.dll
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\System.Globalization.dll
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\System.Threading.dll
+C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\System.Reflection.dll
 C:\XAMARIN\ProyectoMyList\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Mono.Security.dll

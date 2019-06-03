@@ -38,6 +38,7 @@ namespace mylist.Viewmodels
             get {
                 return new Command( async()=> {
                     if (await this.repo.Login(this.usuario)) {
+                        await App.Current.MainPage.Navigation.PopAsync();
                         await App.Current.MainPage.Navigation.PushAsync(new MasterPage());
                     }
                 });
