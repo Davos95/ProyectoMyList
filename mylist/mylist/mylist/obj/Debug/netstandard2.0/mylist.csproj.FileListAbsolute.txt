@@ -30,5 +30,5 @@ C:\mylist\mylist\mylist\obj\Debug\netstandard2.0\mylist.pdb
 C:\mylist\mylist\mylist\bin\Debug\netstandard2.0\mylist.deps.json
 C:\mylist\mylist\mylist\bin\Debug\netstandard2.0\mylist.dll
 C:\mylist\mylist\mylist\bin\Debug\netstandard2.0\mylist.pdb
-C:\mylist\mylist\mylist\obj\Debug\netstandard2.0\XamlC.stamp
 C:\mylist\mylist\mylist\obj\Debug\netstandard2.0\mylist.csprojAssemblyReference.cache
+C:\mylist\mylist\mylist\obj\Debug\netstandard2.0\XamlC.stamp

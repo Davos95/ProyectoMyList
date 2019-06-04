@@ -1,4 +1,5 @@
-﻿using mylist.Base;
+﻿using Acr.UserDialogs;
+using mylist.Base;
 using mylist.Models;
 using mylist.Repositories;
 using mylist.Services;
@@ -45,12 +46,12 @@ namespace mylist.Viewmodels
         {
             get {
                 return new Command( async()=> {
-                    this.IsLoading = true;
+                    UserDialogs.Instance.ShowLoading("Cargando...",MaskType.Black);
                     if (await this.repo.Login(this.usuario)) {
                         DependencyService.Get<Toast>().Show("Se ha iniciado sesión!");
                         App.Current.MainPage = new NavigationPage(new MasterPage());
                     }
-                    this.IsLoading = false;
+                    UserDialogs.Instance.HideLoading();
                 });
             }
         }

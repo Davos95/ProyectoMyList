@@ -26,6 +26,43 @@ namespace mylist.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::mylist.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::mylist.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::mylist.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::mylist.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::mylist.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::mylist.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::mylist.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::mylist.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::mylist.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::mylist.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::mylist.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::mylist.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::mylist.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::mylist.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::mylist.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::mylist.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::mylist.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::mylist.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::mylist.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::mylist.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::mylist.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::mylist.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::mylist.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::mylist.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::mylist.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::mylist.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 			global::FAB.Droid.Resource.Animation.abc_fade_in = global::mylist.Droid.Resource.Animation.abc_fade_in;
 			global::FAB.Droid.Resource.Animation.abc_fade_out = global::mylist.Droid.Resource.Animation.abc_fade_out;
 			global::FAB.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::mylist.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -4363,6 +4400,42 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F040022
 			public const int activityChooserViewStyle = 2130968610;
 			
+			// aapt resource value: 0x7F080005
+			public const int ahBarColor = 2131230725;
+			
+			// aapt resource value: 0x7F080013
+			public const int ahBarLength = 2131230739;
+			
+			// aapt resource value: 0x7F080012
+			public const int ahBarWidth = 2131230738;
+			
+			// aapt resource value: 0x7F080010
+			public const int ahCircleColor = 2131230736;
+			
+			// aapt resource value: 0x7F080009
+			public const int ahDelayMillis = 2131230729;
+			
+			// aapt resource value: 0x7F080011
+			public const int ahRadius = 2131230737;
+			
+			// aapt resource value: 0x7F080006
+			public const int ahRimColor = 2131230726;
+			
+			// aapt resource value: 0x7F080007
+			public const int ahRimWidth = 2131230727;
+			
+			// aapt resource value: 0x7F080008
+			public const int ahSpinSpeed = 2131230728;
+			
+			// aapt resource value: 0x7F080002
+			public const int ahText = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int ahTextColor = 2131230723;
+			
+			// aapt resource value: 0x7F080004
+			public const int ahTextSize = 2131230724;
+			
 			// aapt resource value: 0x7F040023
 			public const int alertDialogButtonGroupStyle = 2130968611;
 			
@@ -4708,23 +4781,23 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F040089
 			public const int fabSize = 2130968713;
 			
-			// aapt resource value: 0x7F080004
-			public const int fab_colorDisabled = 2131230724;
+			// aapt resource value: 0x7F080016
+			public const int fab_colorDisabled = 2131230742;
 			
-			// aapt resource value: 0x7F080003
-			public const int fab_colorNormal = 2131230723;
+			// aapt resource value: 0x7F080015
+			public const int fab_colorNormal = 2131230741;
 			
-			// aapt resource value: 0x7F080002
-			public const int fab_colorPressed = 2131230722;
+			// aapt resource value: 0x7F080014
+			public const int fab_colorPressed = 2131230740;
 			
-			// aapt resource value: 0x7F080005
-			public const int fab_colorRipple = 2131230725;
+			// aapt resource value: 0x7F080017
+			public const int fab_colorRipple = 2131230743;
 			
-			// aapt resource value: 0x7F080006
-			public const int fab_shadow = 2131230726;
+			// aapt resource value: 0x7F080018
+			public const int fab_shadow = 2131230744;
 			
-			// aapt resource value: 0x7F080007
-			public const int fab_size = 2131230727;
+			// aapt resource value: 0x7F080019
+			public const int fab_size = 2131230745;
 			
 			// aapt resource value: 0x7F04008A
 			public const int fastScrollEnabled = 2130968714;
@@ -6124,20 +6197,20 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F080077
 			public const int disabled_alpha_material_light = 2131230839;
 			
-			// aapt resource value: 0x7F090006
-			public const int fab_elevation_lollipop = 2131296262;
+			// aapt resource value: 0x7F100006
+			public const int fab_elevation_lollipop = 2131755014;
 			
-			// aapt resource value: 0x7F090005
-			public const int fab_scroll_threshold = 2131296261;
+			// aapt resource value: 0x7F100005
+			public const int fab_scroll_threshold = 2131755013;
 			
-			// aapt resource value: 0x7F090004
-			public const int fab_shadow_size = 2131296260;
+			// aapt resource value: 0x7F100004
+			public const int fab_shadow_size = 2131755012;
 			
-			// aapt resource value: 0x7F090003
-			public const int fab_size_mini = 2131296259;
+			// aapt resource value: 0x7F100003
+			public const int fab_size_mini = 2131755011;
 			
-			// aapt resource value: 0x7F090002
-			public const int fab_size_normal = 2131296258;
+			// aapt resource value: 0x7F100002
+			public const int fab_size_normal = 2131755010;
 			
 			// aapt resource value: 0x7F080078
 			public const int fastscroll_default_thickness = 2131230840;
@@ -6554,11 +6627,11 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010003
-			public const int fab_shadow = 2130771971;
+			// aapt resource value: 0x7F010007
+			public const int fab_shadow = 2130771975;
 			
-			// aapt resource value: 0x7F010004
-			public const int fab_shadow_mini = 2130771972;
+			// aapt resource value: 0x7F010008
+			public const int fab_shadow_mini = 2130771976;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -6571,6 +6644,9 @@ namespace mylist.Droid
 			
 			// aapt resource value: 0x7F090057
 			public const int ic_dialog_close_light = 2131296343;
+			
+			// aapt resource value: 0x7F010005
+			public const int ic_errorstatus = 2130771973;
 			
 			// aapt resource value: 0x7F090058
 			public const int ic_group_collapse_00 = 2131296344;
@@ -7073,6 +7149,9 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0900FE
 			public const int ic_mr_button_grey = 2131296510;
 			
+			// aapt resource value: 0x7F010006
+			public const int ic_successstatus = 2130771974;
+			
 			// aapt resource value: 0x7F0900FF
 			public const int ic_vol_type_speaker_dark = 2131296511;
 			
@@ -7190,6 +7269,12 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0x7F010003
+			public const int roundedbg = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int roundedbgdark = 2130771972;
+			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
@@ -7287,11 +7372,11 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020174
-			public const int bottomtab.navarea = 2130837876;
+			// aapt resource value: 0x7F020178
+			public const int bottomtab.navarea = 2130837880;
 			
-			// aapt resource value: 0x7F020175
-			public const int bottomtab.tabbar = 2130837877;
+			// aapt resource value: 0x7F020179
+			public const int bottomtab.tabbar = 2130837881;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -7365,11 +7450,11 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
-			// aapt resource value: 0x7F020176
-			public const int flyoutcontent_appbar = 2130837878;
+			// aapt resource value: 0x7F020180
+			public const int flyoutcontent_appbar = 2130837888;
 			
-			// aapt resource value: 0x7F020177
-			public const int flyoutcontent_recycler = 2130837879;
+			// aapt resource value: 0x7F020181
+			public const int flyoutcontent_recycler = 2130837889;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
@@ -7416,17 +7501,26 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x7F020178
-			public const int main.appbar = 2130837880;
+			// aapt resource value: 0x7F020006
+			public const int loadingImage = 2130837510;
 			
-			// aapt resource value: 0x7F020181
-			public const int main.scrollview = 2130837889;
+			// aapt resource value: 0x7F020004
+			public const int loadingProgressBar = 2130837508;
 			
-			// aapt resource value: 0x7F020180
-			public const int main.tablayout = 2130837888;
+			// aapt resource value: 0x7F020007
+			public const int loadingProgressWheel = 2130837511;
 			
-			// aapt resource value: 0x7F020179
-			public const int main.toolbar = 2130837881;
+			// aapt resource value: 0x7F020182
+			public const int main.appbar = 2130837890;
+			
+			// aapt resource value: 0x7F020185
+			public const int main.scrollview = 2130837893;
+			
+			// aapt resource value: 0x7F020184
+			public const int main.tablayout = 2130837892;
+			
+			// aapt resource value: 0x7F020183
+			public const int main.toolbar = 2130837891;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -7437,8 +7531,8 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0C0044
 			public const int message = 2131492932;
 			
-			// aapt resource value: 0x7F020005
-			public const int mini = 2130837509;
+			// aapt resource value: 0x7F020009
+			public const int mini = 2130837513;
 			
 			// aapt resource value: 0x7F0C0033
 			public const int mr_art = 2131492915;
@@ -7524,8 +7618,8 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
 			
-			// aapt resource value: 0x7F020004
-			public const int normal = 2130837508;
+			// aapt resource value: 0x7F020008
+			public const int normal = 2130837512;
 			
 			// aapt resource value: 0x7F0C0011
 			public const int notification_background = 2131492881;
@@ -7623,14 +7717,14 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
 			
-			// aapt resource value: 0x7F020182
-			public const int shellcontent.appbar = 2130837890;
+			// aapt resource value: 0x7F020186
+			public const int shellcontent.appbar = 2130837894;
 			
-			// aapt resource value: 0x7F020184
-			public const int shellcontent.scrollview = 2130837892;
+			// aapt resource value: 0x7F020188
+			public const int shellcontent.scrollview = 2130837896;
 			
-			// aapt resource value: 0x7F020183
-			public const int shellcontent.toolbar = 2130837891;
+			// aapt resource value: 0x7F020187
+			public const int shellcontent.toolbar = 2130837895;
 			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
@@ -7697,6 +7791,9 @@ namespace mylist.Droid
 			
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
+			
+			// aapt resource value: 0x7F020005
+			public const int textViewStatus = 2130837509;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -7920,8 +8017,8 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F030072
-			public const int BottomTabLayout = 2130903154;
+			// aapt resource value: 0x7F030075
+			public const int BottomTabLayout = 2130903157;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -7965,11 +8062,20 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F030073
-			public const int FlyoutContent = 2130903155;
+			// aapt resource value: 0x7F030076
+			public const int FlyoutContent = 2130903158;
 			
 			// aapt resource value: 0x7F030004
-			public const int mini_fab = 2130903044;
+			public const int loading = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int loadingimage = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int loadingprogress = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int mini_fab = 2130903047;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int mr_chooser_dialog = 2131689499;
@@ -7989,8 +8095,8 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0F0020
 			public const int mr_volume_control = 2131689504;
 			
-			// aapt resource value: 0x7F030005
-			public const int normal_fab = 2130903045;
+			// aapt resource value: 0x7F030008
+			public const int normal_fab = 2130903048;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -8037,8 +8143,8 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F030074
-			public const int RootLayout = 2130903156;
+			// aapt resource value: 0x7F030077
+			public const int RootLayout = 2130903159;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -8049,8 +8155,8 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F030075
-			public const int ShellContent = 2130903157;
+			// aapt resource value: 0x7F030078
+			public const int ShellContent = 2130903160;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -8195,38 +8301,38 @@ namespace mylist.Droid
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F100002
-			public const int define_FloatingActionButton = 2131755010;
+			// aapt resource value: 0x7F090003
+			public const int define_FloatingActionButton = 2131296259;
 			
-			// aapt resource value: 0x7F100003
-			public const int library_FloatingActionButton_author = 2131755011;
+			// aapt resource value: 0x7F090004
+			public const int library_FloatingActionButton_author = 2131296260;
 			
-			// aapt resource value: 0x7F100004
-			public const int library_FloatingActionButton_authorWebsite = 2131755012;
+			// aapt resource value: 0x7F090005
+			public const int library_FloatingActionButton_authorWebsite = 2131296261;
 			
-			// aapt resource value: 0x7F100009
-			public const int library_FloatingActionButton_isOpenSource = 2131755017;
+			// aapt resource value: 0x7F090010
+			public const int library_FloatingActionButton_isOpenSource = 2131296272;
 			
-			// aapt resource value: 0x7F100006
-			public const int library_FloatingActionButton_libraryDescription = 2131755014;
+			// aapt resource value: 0x7F090007
+			public const int library_FloatingActionButton_libraryDescription = 2131296263;
 			
-			// aapt resource value: 0x7F100005
-			public const int library_FloatingActionButton_libraryName = 2131755013;
+			// aapt resource value: 0x7F090006
+			public const int library_FloatingActionButton_libraryName = 2131296262;
 			
-			// aapt resource value: 0x7F100008
-			public const int library_FloatingActionButton_libraryVersion = 2131755016;
+			// aapt resource value: 0x7F090009
+			public const int library_FloatingActionButton_libraryVersion = 2131296265;
 			
-			// aapt resource value: 0x7F100007
-			public const int library_FloatingActionButton_libraryWebsite = 2131755015;
+			// aapt resource value: 0x7F090008
+			public const int library_FloatingActionButton_libraryWebsite = 2131296264;
 			
-			// aapt resource value: 0x7F100011
-			public const int library_FloatingActionButton_licenseId = 2131755025;
+			// aapt resource value: 0x7F090012
+			public const int library_FloatingActionButton_licenseId = 2131296274;
 			
-			// aapt resource value: 0x7F100010
-			public const int library_FloatingActionButton_repositoryLink = 2131755024;
+			// aapt resource value: 0x7F090011
+			public const int library_FloatingActionButton_repositoryLink = 2131296273;
 			
-			// aapt resource value: 0x7F100012
-			public const int library_name = 2131755026;
+			// aapt resource value: 0x7F090002
+			public const int library_name = 2131296258;
 			
 			// aapt resource value: 0x7F15001E
 			public const int mr_button_content_description = 2132082718;
@@ -9578,11 +9684,11 @@ namespace mylist.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F070054
-			public const int ActionBarLayout_android_layout_gravity = 2131165268;
+			// aapt resource value: 0x7F070067
+			public const int ActionBarLayout_android_layout_gravity = 2131165287;
 			
-			// aapt resource value: 0x7F070024
-			public const int ActionBar_background = 2131165220;
+			// aapt resource value: 0x7F070037
+			public const int ActionBar_background = 2131165239;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -9671,8 +9777,8 @@ namespace mylist.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F070056
-			public const int ActionMenuItemView_android_minWidth = 2131165270;
+			// aapt resource value: 0x7F070069
+			public const int ActionMenuItemView_android_minWidth = 2131165289;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -9682,8 +9788,8 @@ namespace mylist.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F070058
-			public const int ActionMode_background = 2131165272;
+			// aapt resource value: 0x7F070071
+			public const int ActionMode_background = 2131165297;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -9704,8 +9810,8 @@ namespace mylist.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F070065
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165285;
+			// aapt resource value: 0x7F070078
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165304;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -9719,8 +9825,8 @@ namespace mylist.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F070068
-			public const int AlertDialog_android_layout = 2131165288;
+			// aapt resource value: 0x7F070081
+			public const int AlertDialog_android_layout = 2131165313;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -9751,14 +9857,14 @@ namespace mylist.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F070082
-			public const int AppBarLayoutStates_state_collapsed = 2131165314;
+			// aapt resource value: 0x7F070095
+			public const int AppBarLayoutStates_state_collapsed = 2131165333;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F070076
-			public const int AppBarLayout_android_background = 2131165302;
+			// aapt resource value: 0x7F070089
+			public const int AppBarLayout_android_background = 2131165321;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -9776,8 +9882,8 @@ namespace mylist.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F070085
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165317;
+			// aapt resource value: 0x7F070098
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165336;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -9788,8 +9894,8 @@ namespace mylist.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F070088
-			public const int AppCompatImageView_android_src = 2131165320;
+			// aapt resource value: 0x7F070101
+			public const int AppCompatImageView_android_src = 2131165441;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -9806,8 +9912,8 @@ namespace mylist.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F070093
-			public const int AppCompatSeekBar_android_thumb = 2131165331;
+			// aapt resource value: 0x7F070106
+			public const int AppCompatSeekBar_android_thumb = 2131165446;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -9827,8 +9933,8 @@ namespace mylist.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F070098
-			public const int AppCompatTextHelper_android_drawableBottom = 2131165336;
+			// aapt resource value: 0x7F070111
+			public const int AppCompatTextHelper_android_drawableBottom = 2131165457;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -9858,8 +9964,8 @@ namespace mylist.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070106
-			public const int AppCompatTextView_android_textAppearance = 2131165446;
+			// aapt resource value: 0x7F070119
+			public const int AppCompatTextView_android_textAppearance = 2131165465;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -10003,8 +10109,8 @@ namespace mylist.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F070115
-			public const int AppCompatTheme_actionBarDivider = 2131165461;
+			// aapt resource value: 0x7F070128
+			public const int AppCompatTheme_actionBarDivider = 2131165480;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -10367,8 +10473,8 @@ namespace mylist.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070235
-			public const int BottomNavigationView_elevation = 2131165749;
+			// aapt resource value: 0x7F070248
+			public const int BottomNavigationView_elevation = 2131165768;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -10387,8 +10493,8 @@ namespace mylist.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F070241
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131165761;
+			// aapt resource value: 0x7F070254
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131165780;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -10399,8 +10505,8 @@ namespace mylist.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F070245
-			public const int ButtonBarLayout_allowStacking = 2131165765;
+			// aapt resource value: 0x7F070258
+			public const int ButtonBarLayout_allowStacking = 2131165784;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -10417,8 +10523,8 @@ namespace mylist.Droid
 					2130968586,
 					2130968587};
 			
-			// aapt resource value: 0x7F070547
-			public const int CardView_android_minHeight = 2131166535;
+			// aapt resource value: 0x7F070560
+			public const int CardView_android_minHeight = 2131166560;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -10474,8 +10580,8 @@ namespace mylist.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F070247
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131165767;
+			// aapt resource value: 0x7F070260
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131165792;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -10508,8 +10614,8 @@ namespace mylist.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F070264
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165796;
+			// aapt resource value: 0x7F070277
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165815;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -10537,8 +10643,8 @@ namespace mylist.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F070267
-			public const int ColorStateListItem_alpha = 2131165799;
+			// aapt resource value: 0x7F070280
+			public const int ColorStateListItem_alpha = 2131165824;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -10551,8 +10657,8 @@ namespace mylist.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F070271
-			public const int CompoundButton_android_button = 2131165809;
+			// aapt resource value: 0x7F070284
+			public const int CompoundButton_android_button = 2131165828;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -10564,8 +10670,8 @@ namespace mylist.Droid
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F070275
-			public const int CoordinatorLayout_keylines = 2131165813;
+			// aapt resource value: 0x7F070288
+			public const int CoordinatorLayout_keylines = 2131165832;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -10576,8 +10682,8 @@ namespace mylist.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F070278
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165816;
+			// aapt resource value: 0x7F070291
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165841;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -10605,8 +10711,8 @@ namespace mylist.Droid
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F070286
-			public const int DesignTheme_bottomSheetDialogTheme = 2131165830;
+			// aapt resource value: 0x7F070299
+			public const int DesignTheme_bottomSheetDialogTheme = 2131165849;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -10624,8 +10730,8 @@ namespace mylist.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F070290
-			public const int DrawerArrowToggle_arrowHeadLength = 2131165840;
+			// aapt resource value: 0x7F070303
+			public const int DrawerArrowToggle_arrowHeadLength = 2131165955;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -10656,8 +10762,8 @@ namespace mylist.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070298
-			public const int FloatingActionButton_backgroundTint = 2131165848;
+			// aapt resource value: 0x7F070311
+			public const int FloatingActionButton_backgroundTint = 2131165969;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -10665,8 +10771,8 @@ namespace mylist.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F070307
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131165959;
+			// aapt resource value: 0x7F070320
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131165984;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -10677,23 +10783,23 @@ namespace mylist.Droid
 			// aapt resource value: 0x4
 			public const int FloatingActionButton_fabSize = 4;
 			
-			// aapt resource value: 0x7F070004
-			public const int FloatingActionButton_fab_colorDisabled = 2131165188;
+			// aapt resource value: 0x7F070017
+			public const int FloatingActionButton_fab_colorDisabled = 2131165207;
 			
-			// aapt resource value: 0x7F070003
-			public const int FloatingActionButton_fab_colorNormal = 2131165187;
+			// aapt resource value: 0x7F070016
+			public const int FloatingActionButton_fab_colorNormal = 2131165206;
 			
-			// aapt resource value: 0x7F070002
-			public const int FloatingActionButton_fab_colorPressed = 2131165186;
+			// aapt resource value: 0x7F070015
+			public const int FloatingActionButton_fab_colorPressed = 2131165205;
 			
-			// aapt resource value: 0x7F070005
-			public const int FloatingActionButton_fab_colorRipple = 2131165189;
+			// aapt resource value: 0x7F070018
+			public const int FloatingActionButton_fab_colorRipple = 2131165208;
 			
-			// aapt resource value: 0x7F070006
-			public const int FloatingActionButton_fab_shadow = 2131165190;
+			// aapt resource value: 0x7F070019
+			public const int FloatingActionButton_fab_shadow = 2131165209;
 			
-			// aapt resource value: 0x7F070007
-			public const int FloatingActionButton_fab_size = 2131165191;
+			// aapt resource value: 0x7F070020
+			public const int FloatingActionButton_fab_size = 2131165216;
 			
 			// aapt resource value: 0x5
 			public const int FloatingActionButton_pressedTranslationZ = 5;
@@ -10720,8 +10826,8 @@ namespace mylist.Droid
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F070017
-			public const int FontFamilyFont_android_font = 2131165207;
+			// aapt resource value: 0x7F070030
+			public const int FontFamilyFont_android_font = 2131165232;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -10738,8 +10844,8 @@ namespace mylist.Droid
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F070010
-			public const int FontFamily_fontProviderAuthority = 2131165200;
+			// aapt resource value: 0x7F070023
+			public const int FontFamily_fontProviderAuthority = 2131165219;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -10761,8 +10867,8 @@ namespace mylist.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F070309
-			public const int ForegroundLinearLayout_android_foreground = 2131165961;
+			// aapt resource value: 0x7F070322
+			public const int ForegroundLinearLayout_android_foreground = 2131165986;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -10781,8 +10887,8 @@ namespace mylist.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F070313
-			public const int LinearLayoutCompat_android_baselineAligned = 2131165971;
+			// aapt resource value: 0x7F070326
+			public const int LinearLayoutCompat_android_baselineAligned = 2131165990;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -10808,8 +10914,8 @@ namespace mylist.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F070323
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131165987;
+			// aapt resource value: 0x7F070336
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131166006;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -10830,8 +10936,8 @@ namespace mylist.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F070328
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131165992;
+			// aapt resource value: 0x7F070341
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131166017;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -10842,8 +10948,8 @@ namespace mylist.Droid
 					2130968688,
 					2130968732};
 			
-			// aapt resource value: 0x7F070561
-			public const int MediaRouteButton_android_minHeight = 2131166561;
+			// aapt resource value: 0x7F070574
+			public const int MediaRouteButton_android_minHeight = 2131166580;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -10862,8 +10968,8 @@ namespace mylist.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F070331
-			public const int MenuGroup_android_checkableBehavior = 2131166001;
+			// aapt resource value: 0x7F070344
+			public const int MenuGroup_android_checkableBehavior = 2131166020;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -10905,8 +11011,8 @@ namespace mylist.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F070338
-			public const int MenuItem_actionLayout = 2131166008;
+			// aapt resource value: 0x7F070351
+			public const int MenuItem_actionLayout = 2131166033;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -10985,8 +11091,8 @@ namespace mylist.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F070362
-			public const int MenuView_android_headerBackground = 2131166050;
+			// aapt resource value: 0x7F070375
+			public const int MenuView_android_headerBackground = 2131166069;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -11024,8 +11130,8 @@ namespace mylist.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070372
-			public const int NavigationView_android_background = 2131166066;
+			// aapt resource value: 0x7F070385
+			public const int NavigationView_android_background = 2131166085;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -11062,11 +11168,11 @@ namespace mylist.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F070387
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131166087;
+			// aapt resource value: 0x7F070400
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131166208;
 			
-			// aapt resource value: 0x7F070383
-			public const int PopupWindow_android_popupAnimationStyle = 2131166083;
+			// aapt resource value: 0x7F070396
+			public const int PopupWindow_android_popupAnimationStyle = 2131166102;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -11074,12 +11180,62 @@ namespace mylist.Droid
 			// aapt resource value: 0x2
 			public const int PopupWindow_overlapAnchor = 2;
 			
+			public static int[] ProgressWheel = new int[] {
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F070005
+			public const int ProgressWheel_ahBarColor = 2131165189;
+			
+			// aapt resource value: 0x7F070013
+			public const int ProgressWheel_ahBarLength = 2131165203;
+			
+			// aapt resource value: 0x7F070012
+			public const int ProgressWheel_ahBarWidth = 2131165202;
+			
+			// aapt resource value: 0x7F070010
+			public const int ProgressWheel_ahCircleColor = 2131165200;
+			
+			// aapt resource value: 0x7F070009
+			public const int ProgressWheel_ahDelayMillis = 2131165193;
+			
+			// aapt resource value: 0x7F070011
+			public const int ProgressWheel_ahRadius = 2131165201;
+			
+			// aapt resource value: 0x7F070006
+			public const int ProgressWheel_ahRimColor = 2131165190;
+			
+			// aapt resource value: 0x7F070007
+			public const int ProgressWheel_ahRimWidth = 2131165191;
+			
+			// aapt resource value: 0x7F070008
+			public const int ProgressWheel_ahSpinSpeed = 2131165192;
+			
+			// aapt resource value: 0x7F070002
+			public const int ProgressWheel_ahText = 2131165186;
+			
+			// aapt resource value: 0x7F070003
+			public const int ProgressWheel_ahTextColor = 2131165187;
+			
+			// aapt resource value: 0x7F070004
+			public const int ProgressWheel_ahTextSize = 2131165188;
+			
 			public static int[] RecycleListView = new int[] {
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F070389
-			public const int RecycleListView_paddingBottomNoButtons = 2131166089;
+			// aapt resource value: 0x7F070402
+			public const int RecycleListView_paddingBottomNoButtons = 2131166210;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -11097,8 +11253,8 @@ namespace mylist.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F070392
-			public const int RecyclerView_android_descendantFocusability = 2131166098;
+			// aapt resource value: 0x7F070405
+			public const int RecyclerView_android_descendantFocusability = 2131166213;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -11133,14 +11289,14 @@ namespace mylist.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F070404
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131166212;
+			// aapt resource value: 0x7F070417
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131166231;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F070406
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166214;
+			// aapt resource value: 0x7F070419
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166233;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -11161,8 +11317,8 @@ namespace mylist.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F070408
-			public const int SearchView_android_focusable = 2131166216;
+			// aapt resource value: 0x7F070421
+			public const int SearchView_android_focusable = 2131166241;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -11217,8 +11373,8 @@ namespace mylist.Droid
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F070426
-			public const int SnackbarLayout_android_maxWidth = 2131166246;
+			// aapt resource value: 0x7F070439
+			public const int SnackbarLayout_android_maxWidth = 2131166265;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -11233,8 +11389,8 @@ namespace mylist.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F070430
-			public const int Spinner_android_dropDownWidth = 2131166256;
+			// aapt resource value: 0x7F070443
+			public const int Spinner_android_dropDownWidth = 2131166275;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -11264,8 +11420,8 @@ namespace mylist.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F070436
-			public const int SwitchCompat_android_textOff = 2131166262;
+			// aapt resource value: 0x7F070449
+			public const int SwitchCompat_android_textOff = 2131166281;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -11311,8 +11467,8 @@ namespace mylist.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F070451
-			public const int TabItem_android_icon = 2131166289;
+			// aapt resource value: 0x7F070464
+			public const int TabItem_android_icon = 2131166308;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -11338,8 +11494,8 @@ namespace mylist.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F070455
-			public const int TabLayout_tabBackground = 2131166293;
+			// aapt resource value: 0x7F070468
+			public const int TabLayout_tabBackground = 2131166312;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -11401,8 +11557,8 @@ namespace mylist.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070472
-			public const int TextAppearance_android_fontFamily = 2131166322;
+			// aapt resource value: 0x7F070485
+			public const int TextAppearance_android_fontFamily = 2131166341;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -11458,8 +11614,8 @@ namespace mylist.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F070486
-			public const int TextInputLayout_android_hint = 2131166342;
+			// aapt resource value: 0x7F070499
+			public const int TextInputLayout_android_hint = 2131166361;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -11537,8 +11693,8 @@ namespace mylist.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F070503
-			public const int Toolbar_android_gravity = 2131166467;
+			// aapt resource value: 0x7F070516
+			public const int Toolbar_android_gravity = 2131166486;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -11636,8 +11792,8 @@ namespace mylist.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F070539
-			public const int ViewBackgroundHelper_android_background = 2131166521;
+			// aapt resource value: 0x7F070552
+			public const int ViewBackgroundHelper_android_background = 2131166546;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -11650,8 +11806,8 @@ namespace mylist.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F070543
-			public const int ViewStubCompat_android_id = 2131166531;
+			// aapt resource value: 0x7F070556
+			public const int ViewStubCompat_android_id = 2131166550;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -11659,8 +11815,8 @@ namespace mylist.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F070533
-			public const int View_android_focusable = 2131166515;
+			// aapt resource value: 0x7F070546
+			public const int View_android_focusable = 2131166534;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;

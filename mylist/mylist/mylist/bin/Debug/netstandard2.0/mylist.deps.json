@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "0281d077fc7c5884aee4d00343081c1a6457deb6"
+    "signature": "8029a8d2b750a140d6549ef423a8683691ca6dde"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "mylist/1.0.0": {
         "dependencies": {
+          "Acr.UserDialogs": "7.0.4",
           "Autofac": "4.9.2",
           "FAB.Forms.fixed": "2.2.1",
           "NETStandard.Library": "2.0.3",
@@ -18,6 +19,14 @@
         },
         "runtime": {
           "mylist.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Autofac/4.9.2": {
@@ -92,6 +101,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Acr.UserDialogs/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J+3+rSVtAAUqvaXC0NGZ6HAcSXMaMyqvKsV1sMoraT7g+Zv/r4QmgUUITPu875n0uO57Y87Xn6IbLVDPje6tlw==",
+      "path": "acr.userdialogs/7.0.4",
+      "hashPath": "acr.userdialogs.7.0.4.nupkg.sha512"
     },
     "Autofac/4.9.2": {
       "type": "package",

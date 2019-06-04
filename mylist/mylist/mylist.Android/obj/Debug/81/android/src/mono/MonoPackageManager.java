@@ -107,6 +107,8 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "mylist.Android.dll" comes first in this list. */
 		"mylist.Android.dll",
+		"Acr.UserDialogs.dll",
+		"AndHUD.dll",
 		"Autofac.dll",
 		"FAB.Droid.dll",
 		"FAB.Forms.dll",

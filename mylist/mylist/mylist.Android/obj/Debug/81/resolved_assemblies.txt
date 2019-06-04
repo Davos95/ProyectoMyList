@@ -1,4 +1,6 @@
 C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\mylist.Android.dll
+C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Acr.UserDialogs.dll
+C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\AndHUD.dll
 C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Autofac.dll
 C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\FAB.Droid.dll
 C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\FAB.Forms.dll

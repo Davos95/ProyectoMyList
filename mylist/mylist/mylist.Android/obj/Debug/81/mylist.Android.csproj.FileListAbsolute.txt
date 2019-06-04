@@ -172,6 +172,8 @@ C:\mylist\mylist\mylist.Android\bin\Debug\System.Runtime.Serialization.pdb
 C:\mylist\mylist\mylist.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\mylist\mylist\mylist.Android\bin\Debug\System.Web.Services.pdb
 C:\mylist\mylist\mylist.Android\bin\Debug\Mono.Security.pdb
+C:\mylist\mylist\mylist.Android\bin\Debug\mylist.dll.mdb
+C:\mylist\mylist\mylist.Android\bin\Debug\Xamarin.Essentials.dll.mdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\mylist.Android.pdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Autofac.pdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
@@ -196,10 +198,11 @@ C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\System.Runtime.Serializatio
 C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\mylist\mylist\mylist.Android\bin\Debug\mylist.dll.mdb
-C:\mylist\mylist\mylist.Android\bin\Debug\Xamarin.Essentials.dll.mdb
+C:\mylist\mylist\mylist.Android\bin\Debug\Acr.UserDialogs.dll.mdb
+C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Acr.UserDialogs.dll.mdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\mylist.dll.mdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Xamarin.Essentials.dll.mdb
+C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Acr.UserDialogs.dll.mdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\mylist.dll.mdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Xamarin.Essentials.dll.mdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Autofac.pdb
@@ -228,5 +231,6 @@ C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platfo
 C:\mylist\mylist\mylist.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\mylist\mylist\mylist\bin\Debug\netstandard2.0\mylist.dll
 C:\mylist\mylist\mylist.Android\bin\Debug\mylist.dll.mdb
+C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Acr.UserDialogs.dll.mdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\mylist.dll.mdb
 C:\mylist\mylist\mylist.Android\obj\Debug\81\linksrc\Xamarin.Essentials.dll.mdb

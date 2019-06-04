@@ -7,7 +7,7 @@
              x:Class="mylist.Views.LoginView">
     <ContentPage.Content>
         <StackLayout>
-            <ActivityIndicator IsVisible="{Binding IsLoading}"  Color="Red"  IsRunning="True"  RelativeLayout.XConstraint="{ConstraintExpression  Type=RelativeToView, Property=Height, Factor=1}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"  />
+            <ActivityIndicator IsVisible="{Binding IsLoading}"  Color="White"  IsRunning="True"  RelativeLayout.XConstraint="{ConstraintExpression  Type=RelativeToView, Property=Height, Factor=1}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"  />
             
             <Label Text="Inicio de sesión" HorizontalOptions="CenterAndExpand" FontSize="25" Margin="0,30,0,0"  />
             <Label Text="Nickname" Margin="20,40,20,0"/>
